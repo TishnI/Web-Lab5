@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main
+{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px 0px gray;
+}
+
+.news
+{
+    padding: 16px 20.5px 20.5px 20.5px;
+    background-color: #b6f5f5;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.news h2
+{
+    margin-bottom: 5px;
+}
+.news p
+{
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+
+.news button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 196px;
+    height: 30px;
+    background: linear-gradient(#00fd00, #008900);
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 4px gray;
+}
+
+.news:hover
+{
+    background-color: #ff5555;
+}
+
+.news .blackLine
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: -1px;
+    left: 0;
+}
+
+.popupWrapper
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background-color: rgb(255, 255, 255, .8);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.popupElement
+{
+    background-color: #e1ff73;
+    max-width: 540px;
+    padding: 20px;
+    margin: 30px 15px;
+
+}
+.popupTitleElement
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
