@@ -14,10 +14,8 @@ let buttons = document.querySelectorAll("button");
 
 for(let button of buttons)
 {
-    let index = 0;
     button.addEventListener("click", function(){
         createPopupElement(this.parentElement);
-        index++;
     });
 }
 
